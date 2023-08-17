@@ -7,10 +7,10 @@ $returnValue = null;
 exec($command, $output, $returnValue);
 
 // Output the result
-echo "Command: $command\n";
-echo "Return value: $returnValue\n";
-echo "Output:\n";
+echo "Command: $command<br>";
+echo "Return value: $returnValue<br>";
+echo "Output:<br>";
 foreach ($output as $line) {
-    echo "$line\n";
+    echo "$line<br>";
 }
 ?>
